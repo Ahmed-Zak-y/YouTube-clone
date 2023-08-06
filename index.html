@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A youtube clone">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="css/youtube.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <header>
+        <div class="left-sec">
+            <div class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img src="imgs/youtube-logo.png" alt="logo">
+        </div>
+        <div class="src-mobile">
+            <i class="material-icons">search</i>
+        </div>
+        <div class="mid-sec">
+            <form action="" method="post">
+                <input type="text" placeholder="Search" name="search">
+                <button>
+                    <i class="material-icons search">search</i>
+                </button>
+            </form>
+            <i class="material-icons mic">mic</i>
+        </div>
+        <div class="right-sec">
+            <div class="dots-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="sign">
+                <i class="material-icons-outlined">account_circle</i>
+                <span>Sign in</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <a href="#" class="active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a href="#">
+                    <img src="imgs/youtube-shorts-logo-15253.png" class="sho" alt="shorts">
+                    <span>Shorts</span>
+                </a>
+                <a href="#">
+                    <i class="material-icons-outlined">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+                <hr class="shr-hand">
+                <a href="#">
+                    <i class="material-icons-outlined">video_library</i>
+                    <span>Library</span>
+                </a>
+                <a href="#">
+                    <i class="material-icons-outlined">history</i>
+                    <span>History</span>
+                </a>
+                <hr class="shr-hand">
+                <div class="nav-sign shr-hand">
+                    <span>
+                        Sign in to like videos, comment, and subscribe.
+                    </span>
+                    <div class="sign">
+                        <i class="material-icons-outlined">account_circle</i>
+                        <span>Sign in</span>
+                    </div>
+                </div>
+                <hr class="shr-hand">
+                <p class="shr-hand">Explore</p>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">local_fire_department</i>
+                    <span>Trending</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">music_note</i>
+                    <span>Music</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">podcasts</i>
+                    <span>Live</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">videogame_asset</i>
+                    <span>Gaming</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">emoji_events</i>
+                    <span>Sports</span>
+                </a>
+                <hr class="shr-hand">
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">add_box</i>
+                    <span>Browse channels</span>
+                </a>
+                <hr class="shr-hand">
+                <p class="shr-hand">More from YouTube</p>
+                <a href="#" class="shr-hand">
+                    <img src="imgs/youtube-logo-2431.png" class="sho" alt="sml-img">
+                    <span>YouTube Premium</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <img src="imgs/play-button-4211.png" class="sho" alt="sml-img">
+                    <span>YouTube Music</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <img src="imgs/kids.png" class="sho" alt="sml-img">
+                    <span>YouTube Kids</span>
+                </a>
+                <hr class="shr-hand">
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">settings</i>
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">flag</i>
+                    <span>Report history</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">help_center</i>
+                    <span>Help</span>
+                </a>
+                <a href="#" class="shr-hand">
+                    <i class="material-icons-outlined">feedback</i>
+                    <span>Send feedback</span>
+                </a>
+                <hr class="shr-hand">
+                <div class="info shr-hand">
+                    About Press Copyright Contact us Creators Advertise Developers
+                </div>
+                <div class="info shr-hand">
+                    Terms Privacy Policy & SafetyHow YouTube works Test new features
+                </div>
+                <div class="copyright shr-hand">
+                    &copy; 2023 Google LLC
+                </div>
+            </nav>
+        </aside>
+        <section>
+            <div class="shuffle-sec">
+                <div class="shuffle">
+                    <span class="active">All</span>
+                    <span>Computer programming</span>
+                    <span>Intelligence</span>
+                    <span>Podcasts</span>
+                    <span>Live</span>
+                    <span>Comedy</span>
+                    <span>Recently uploaded</span>
+                </div>
+                <div class="see-more">
+                    <i class="material-icons-outlined">arrow_forward_ios</i>
+                </div>
+            </div>
+            <div class="videos grid-1">
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-1.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/ani-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">عالم الحيوان | الأسود</p>
+                            <p class="channel-name">Animals <i class="material-icons">check_circle</i></p>
+                            <p class="stats">260K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-2.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/ani-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">عالم الحيوان | العقبان</p>
+                            <p class="channel-name">Animals <i class="material-icons">check_circle</i></p>
+                            <p class="stats">62K views • 5 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-3.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/geo-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">The pole of the earth</p>
+                            <p class="channel-name">Geo <i class="material-icons">check_circle</i></p>
+                            <p class="stats">243K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-4.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/geo-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">الشفق القطبي</p>
+                            <p class="channel-name">Geo <i class="material-icons">check_circle</i></p>
+                            <p class="stats">991K views • 2 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-5.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/cars-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Lamborgini</p>
+                            <p class="channel-name">Cars <i class="material-icons">check_circle</i></p>
+                            <p class="stats">24K views • 3 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-6.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/cars-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Audi</p>
+                            <p class="channel-name">Cars <i class="material-icons">check_circle</i></p>
+                            <p class="stats">100K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-7.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Front-end development</p>
+                            <p class="channel-name">Programming <i class="material-icons">check_circle</i></p>
+                            <p class="stats">593 views • 11 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-8.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Back-end development</p>
+                            <p class="channel-name">Programming <i class="material-icons">check_circle</i></p>
+                            <p class="stats">142 views • 6 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-9.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/hard-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Gaming keyboard</p>
+                            <p class="channel-name">Hardware <i class="material-icons">check_circle</i></p>
+                            <p class="stats">321K views • 7 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-10.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/pro-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">إزاي تنظم وقتك؟</p>
+                            <p class="channel-name">Productivity <i class="material-icons">check_circle</i></p>
+                            <p class="stats">93K views • 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shorts-section">
+                <div class="sho-head">
+                    <img src="imgs/youtube-shorts-icon.png" class="sho-h" alt="shorts icons">
+                    <p>Shorts</p>
+                </div>
+                <div class="shorts flex-1">
+                    <div class="box">
+                        <div class="short">
+                            <img src="imgs/shorts-1.jpg" alt="short">
+                        </div>
+                        <p class="vid-title sho-sp">Flowers</p>
+                        <p class="stats">2M views</p>
+                    </div>
+                    <div class="box">
+                        <div class="short">
+                            <img src="imgs/shorts-2.jpg" alt="short">
+                        </div>
+                        <p class="vid-title sho-sp">Mountain</p>
+                        <p class="stats">1.2M views</p>
+                    </div>
+                    <div class="box">
+                        <div class="short">
+                            <img src="imgs/shorts-3.jpg" alt="short">
+                        </div>
+                        <p class="vid-title sho-sp">Sun rise</p>
+                        <p class="stats">967K views</p>
+                    </div>
+                    <div class="box">
+                        <div class="short">
+                            <img src="imgs/shorts-4.jpg" alt="short">
+                        </div>
+                        <p class="vid-title sho-sp">Ice</p>
+                        <p class="stats">2.1M views</p>
+                    </div>
+                    <div class="box">
+                        <div class="short">
+                            <img src="imgs/shorts-5.jpg" alt="short">
+                        </div>
+                        <p class="vid-title sho-sp">Sun set</p>
+                        <p class="stats">449K views</p>
+                    </div>
+                    <div class="box">
+                        <div class="short">
+                            <img src="imgs/shorts-6.jpg" alt="short">
+                        </div>
+                        <p class="vid-title sho-sp">The good night</p>
+                        <p class="stats">1.7M views</p>
+                    </div>
+                    <div class="box">
+                        <div class="short">
+                            <img src="imgs/shorts-7.jpg" alt="short">
+                        </div>
+                        <p class="vid-title sho-sp">The beach</p>
+                        <p class="stats">687K views</p>
+                    </div>
+                </div>
+                <div class="expand">Show more <i class="material-icons-outlined">expand_more</i></div>
+            </div>
+            <div class="videos grid-1">
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-11.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/pro-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Planing skills</p>
+                            <p class="channel-name">Productivity <i class="material-icons">check_circle</i></p>
+                            <p class="stats">28K views • 1 month ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-12.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/pro-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">بناء الذات</p>
+                            <p class="channel-name">Productivity <i class="material-icons">check_circle</i></p>
+                            <p class="stats">89K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-1.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/ani-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">عالم الحيوان | الأسود</p>
+                            <p class="channel-name">Animals <i class="material-icons">check_circle</i></p>
+                            <p class="stats">260K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-2.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/ani-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">عالم الحيوان | العقبان</p>
+                            <p class="channel-name">Animals <i class="material-icons">check_circle</i></p>
+                            <p class="stats">62K views • 5 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-3.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/geo-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">The pole of the earth</p>
+                            <p class="channel-name">Geo <i class="material-icons">check_circle</i></p>
+                            <p class="stats">243K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-4.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/geo-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">الشفق القطبي</p>
+                            <p class="channel-name">Geo <i class="material-icons">check_circle</i></p>
+                            <p class="stats">991K views • 2 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-5.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/cars-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Lamborgini</p>
+                            <p class="channel-name">Cars <i class="material-icons">check_circle</i></p>
+                            <p class="stats">24K views • 3 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-6.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/cars-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Audi</p>
+                            <p class="channel-name">Cars <i class="material-icons">check_circle</i></p>
+                            <p class="stats">100K views • 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-7.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Front-end development</p>
+                            <p class="channel-name">Programming <i class="material-icons">check_circle</i></p>
+                            <p class="stats">593 views • 11 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-8.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Back-end development</p>
+                            <p class="channel-name">Programming <i class="material-icons">check_circle</i></p>
+                            <p class="stats">142 views • 6 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-9.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/hard-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">Gaming keyboard</p>
+                            <p class="channel-name">Hardware <i class="material-icons">check_circle</i></p>
+                            <p class="stats">321K views • 7 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="video">
+                        <img src="imgs/video-10.jpg" alt="video">
+                    </div>
+                    <div class="info">
+                        <div class="profile">
+                            <img src="imgs/pro-pic.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                            <p class="vid-title">إزاي تنظم وقتك؟</p>
+                            <p class="channel-name">Productivity <i class="material-icons">check_circle</i></p>
+                            <p class="stats">93K views • 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
