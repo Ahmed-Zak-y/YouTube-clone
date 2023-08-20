@@ -425,8 +425,7 @@ section .shuffle .active {
     align-items: center;
     font-size: 1.4rem;
     color: #606060;
-    padding-top: 0.6rem;
-    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
 }
 .videos .unit .channel-name i {
     font-size: 1.4rem;
